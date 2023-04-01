@@ -50,6 +50,8 @@
     ]
   },
   "devDependencies": {
+    "@types/nprogress": "^0.2.0",
+    "@types/redux-logger": "^3.0.9",
     "sass": "^1.60.0",
     "sass-loader": "^13.2.2"
   }
