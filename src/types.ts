@@ -31,6 +31,21 @@ interface MenuItemType {
   label: string
   children?: Array<MenuItemType> | null
   icon?: string
+  component?: string
+  path?: string
 }
 
-export type { UserType, Iprops, ActionType, loginResponseType, MenuItemType }
+// 权限路由格式化
+interface RouterItemType {
+  path?: string
+  element: ReactNode
+}
+
+export type {
+  UserType,
+  Iprops,
+  ActionType,
+  loginResponseType,
+  MenuItemType,
+  RouterItemType,
+}
